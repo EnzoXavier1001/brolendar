@@ -2,17 +2,26 @@ import styled from "styled-components";
 import background from '../../assets/background.jpg'
 
 export const HomeSection = styled.section`
+    background: url(${background});
+`
+
+export const HomeContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 100vh;
-    background: url(${background});
+    justify-content: center;
+
+    @media (max-width: 76.8rem) {
+        width: 90%;
+        margin: 0 auto;
+    }
 `
 
 export const TitleHome = styled.h2`
     font-size: 1.8rem;
     margin-top: 0.4rem;
+    text-align: center;
 `
 
 export const HomeForm = styled.form`
@@ -36,10 +45,18 @@ export const HomeForm = styled.form`
         text-align: center;
         color: #00282F;
     }
+
+    @media (max-width: 46rem) {
+        width: auto;
+    }
 `
 
 export const FormInputWrapper = styled.div`
     margin-bottom: 1.4rem;
+
+    > div {
+        position: relative;
+    }
 `
 
 export const FormInput = styled.input`
@@ -70,4 +87,14 @@ export const ErrorMessage = styled.p`
     font-weight: 500;
     font-size: 1.2rem;
     margin-top: 0.5rem;
+`
+
+export const ButtonShowPassword = styled.button`
+    position: absolute;
+    padding: 0.4rem;
+    right: 3%;
+    cursor: pointer;
+    top: 10%;
+    background: transparent;
+    border: none;
 `
