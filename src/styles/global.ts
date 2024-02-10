@@ -29,6 +29,6 @@ export const GlobalStyle = createGlobalStyle`
 
     &:focus {
         box-shadow: none;
-        border-color: #8047F8 !important;
+        border-color: #00282F !important;
   }
 `
