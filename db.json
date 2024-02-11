@@ -90,5 +90,34 @@
       "email": "enzo_costa7@hotmail.com",
       "password": "1123123312"
     }
-  ]
+  ],
+  "evento": [
+      {
+        "id": 1,
+        "name": "Futzinho dos cria",
+        "description": "O 'Futzinho dos Cria' é para todos - desde os jogadores habilidosos até aqueles que estão apenas começando. O importante é participar, dar risadas e criar memórias duradouras com os amigos. Não se preocupe com uniformes ou equipamentos especiais, venha como você é e divirta-se ao máximo.",
+        "dt_start": "2024-02-15",
+        "dt_end": "2024-02-15",
+        "category": "Esportes",
+        "status": 2
+      },
+      {
+        "id": 2,
+        "name": "Conferência de Inovação Tecnológica",
+        "description": "A Conferência de Inovação Tecnológica reúne líderes e entusiastas da indústria de tecnologia para discutir as últimas tendências, avanços e desafios no mundo da inovação. Se você é um profissional de tecnologia, um empresário ou simplesmente alguém interessado no futuro da tecnologia, esta conferência é para você.",
+        "dt_start": "2024-03-10",
+        "dt_end": "2024-03-12",
+        "category": "Tecnologia",
+        "status": 3
+      },
+      {
+        "id": 3,
+        "name": "Festival de Música do Verão",
+        "description": "O Festival de Música do Verão é um evento anual que celebra a diversidade musical e cultural. Com performances ao vivo de artistas locais e internacionais, workshops, atividades e comida deliciosa, é uma experiência imperdível para os amantes da música de todas as idades.",
+        "dt_start": "2024-07-20",
+        "dt_end": "2024-07-22",
+        "category": "Música",
+        "status": 1
+      }
+    ]
 }
