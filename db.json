@@ -91,185 +91,32 @@
       "password": "1123123312"
     }
   ],
-  "evento": [
+    "evento": [
       {
         "id": 1,
-        "name": "Expo Educação 2024",
-        "description": "A Expo Educação 2024 é um evento que reúne educadores, especialistas em pedagogia, pais e estudantes para discutir as tendências e desafios da educação contemporânea. Com palestras, workshops e atividades práticas, esta expo visa promover o desenvolvimento educacional e inspirar mudanças positivas no setor.",
-        "dt_start": "2024-05-10T00:00:00",
-        "dt_end": "2024-05-12T23:59:59",
-        "category": "Educação",
-        "status": 2
+        "name": "Festival de Verão",
+        "description": "O Festival de Verão é um evento anual que celebra a chegada da estação mais quente do ano, reunindo música ao vivo, comida deliciosa e atividades ao ar livre. Com apresentações de bandas locais, barracas de comida e bebida, e atividades recreativas, o festival oferece diversão para toda a família.",
+        "dt_start": "2024-07-20T00:00:00",
+        "dt_end": "2024-07-22T23:59:59",
+        "category": "Entretenimento",
+        "status": 0
       },
       {
         "id": 2,
-        "name": "Conferência de Sustentabilidade Ambiental",
-        "description": "A Conferência de Sustentabilidade Ambiental é um evento que reúne líderes, ativistas e especialistas para discutir soluções e estratégias para os desafios ambientais globais. Com painéis de discussão, apresentações e projetos práticos, a conferência busca promover a conscientização e a ação em prol da sustentabilidade.",
-        "dt_start": "2024-06-20T00:00:00",
-        "dt_end": "2024-06-22T23:59:59",
-        "category": "Meio Ambiente",
-        "status": 1
+        "name": "Carnaval de Rua",
+        "description": "O Carnaval de Rua é uma das festas mais animadas do Brasil, com desfiles de escolas de samba, blocos de rua e muita música e dança. Milhares de pessoas se reúnem para celebrar essa tradição colorida e vibrante, criando uma atmosfera de alegria e descontração nas ruas das cidades.",
+        "dt_start": "2025-02-21T00:00:00",
+        "dt_end": "2025-02-25T23:59:59",
+        "category": "Cultura",
+        "status": 2
       },
       {
         "id": 3,
-        "name": "Feira de Empreendedorismo Juvenil",
-        "description": "A Feira de Empreendedorismo Juvenil é um espaço dedicado a jovens empreendedores para apresentarem suas ideias, produtos e serviços inovadores. Com palestras motivacionais, mentorias e oportunidades de networking, a feira incentiva o espírito empreendedor e apoia o crescimento de negócios promissores.",
-        "dt_start": "2024-07-15T00:00:00",
-        "dt_end": "2024-07-17T23:59:59",
-        "category": "Empreendedorismo",
-        "status": 0
-      },
-      {
-        "id": 4,
-        "name": "Festival Gastronômico Internacional",
-        "description": "O Festival Gastronômico Internacional é um evento que celebra a diversidade culinária do mundo, reunindo chefs renomados, restaurantes e food trucks para oferecer uma experiência gastronômica única. Com degustações, workshops e concursos, o festival é uma celebração da comida como expressão cultural.",
-        "dt_start": "2024-08-10T00:00:00",
-        "dt_end": "2024-08-12T23:59:59",
-        "category": "Gastronomia",
-        "status": 2
-      },
-      {
-        "id": 5,
-        "name": "Conferência de Inteligência Artificial",
-        "description": "A Conferência de Inteligência Artificial é um evento dedicado à exploração das últimas tendências, pesquisas e aplicações da IA em diversas áreas. Com palestras de especialistas, demonstrações de tecnologia e debates sobre ética e impacto social, a conferência busca promover o avanço e a compreensão da inteligência artificial.",
-        "dt_start": "2024-09-05T00:00:00",
-        "dt_end": "2024-09-07T23:59:59",
-        "category": "Tecnologia",
-        "status": 0
-      },
-      {
-        "id": 6,
-        "name": "Mostra de Cinema Independente",
-        "description": "A Mostra de Cinema Independente é um evento que destaca filmes de cineastas independentes, oferecendo uma plataforma para a exibição e discussão de obras que desafiam as normas do cinema comercial. Com sessões de exibição, painéis de debate e prêmios para os melhores filmes, a mostra celebra a diversidade e a originalidade no mundo do cinema.",
-        "dt_start": "2024-10-20T00:00:00",
-        "dt_end": "2024-10-25T23:59:59",
-        "category": "Cinema",
-        "status": 2
-      },
-      {
-        "id": 7,
-        "name": "Conferência de Saúde Mental",
-        "description": "A Conferência de Saúde Mental é um evento que visa aumentar a conscientização sobre questões relacionadas à saúde mental e promover a educação e o acesso a recursos para o bem-estar mental. Com palestras de especialistas, workshops práticos e espaços de discussão, a conferência aborda temas como prevenção, tratamento e cuidados com a saúde mental.",
-        "dt_start": "2024-11-12T00:00:00",
-        "dt_end": "2024-11-14T23:59:59",
-        "category": "Saúde",
-        "status": 1
-      },
-      {
-        "id": 8,
-        "name": "Feira de Tecnologia",
-        "description": "A Feira de Tecnologia é um evento onde empresas de tecnologia de ponta apresentam seus produtos e serviços mais recentes. Dos dispositivos eletrônicos aos softwares inovadores, esta feira oferece uma visão abrangente do que há de mais moderno no mundo da tecnologia.",
-        "dt_start": "2024-12-05T00:00:00",
-        "dt_end": "2024-12-07T23:59:59",
-        "category": "Tecnologia",
-        "status": 0
-      },
-      {
-        "id": 9,
-        "name": "Convenção de Quadrinhos",
-        "description": "A Convenção de Quadrinhos é um evento que reúne fãs, artistas e profissionais da indústria para celebrar a cultura dos quadrinhos. Com exposições, painéis de discussão, sessões de autógrafos e lançamentos de novas obras, a convenção é um paraíso para os entusiastas da nona arte.",
-        "dt_start": "2025-01-15T00:00:00",
-        "dt_end": "2025-01-17T23:59:59",
-        "category": "Arte",
-        "status": 3
-      },
-      {
-        "id": 10,
-        "name": "Festival de Jazz",
-        "description": "O Festival de Jazz é um evento que celebra a rica tradição musical do jazz, reunindo músicos renomados e entusiastas em performances ao vivo, jam sessions e workshops. Com uma atmosfera vibrante e eclética, o festival oferece uma experiência única para os amantes da música.",
-        "dt_start": "2025-02-20T00:00:00",
-        "dt_end": "2025-02-22T23:59:59",
-        "category": "Música",
-        "status": 2
-      },
-      {
-        "id": 11,
-        "name": "Competição de eSports",
-        "description": "A Competição de eSports é um evento que reúne jogadores profissionais e entusiastas de videogames para competirem em diversas modalidades. Com prêmios em dinheiro, transmissões ao vivo e uma atmosfera de alta energia, esta competição é um ponto de encontro para a comunidade gamer.",
-        "dt_start": "2025-03-10T00:00:00",
-        "dt_end": "2025-03-12T23:59:59",
-        "category": "Esportes",
-        "status": 0
-      },
-      {
-        "id": 12,
-        "name": "Exposição de Arte Moderna",
-        "description": "A Exposição de Arte Moderna apresenta obras de artistas contemporâneos que exploram novas formas de expressão e abordam questões sociais, políticas e culturais. Com pinturas, esculturas, instalações e performances, a exposição oferece uma visão provocativa e inspiradora da arte no século XXI.",
-        "dt_start": "2025-04-15T00:00:00",
-        "dt_end": "2025-04-20T23:59:59",
-        "category": "Arte",
-        "status": 1
-      },
-      {
-        "id": 13,
-        "name": "Semana da Moda",
-        "description": "A Semana da Moda é um evento de destaque no calendário da moda internacional, onde designers, modelos, compradores e entusiastas se reúnem para explorar as últimas tendências e coleções. Dos desfiles glamorosos às palestras inspiradoras, esta semana é dedicada à celebração da criatividade e inovação na moda.",
-        "dt_start": "2025-05-10T00:00:00",
-        "dt_end": "2025-05-17T23:59:59",
-        "category": "Moda",
-        "status": 0
-      },
-      {
-        "id": 14,
-        "name": "Conferência de Saúde Pública",
-        "description": "A Conferência de Saúde Pública é um evento que reúne profissionais da saúde, pesquisadores e autoridades governamentais para discutir políticas, estratégias e avanços na promoção da saúde da população. Com palestras, mesas-redondas e workshops, a conferência aborda questões relevantes para a melhoria dos sistemas de saúde.",
-        "dt_start": "2025-06-20T00:00:00",
-        "dt_end": "2025-06-22T23:59:59",
-        "category": "Saúde",
-        "status": 2
-      },
-      {
-        "id": 15,
-        "name": "Feira de Livros",
-        "description": "A Feira de Livros é um evento que reúne editoras, autores e leitores para celebrar a literatura em todas as suas formas. Com lançamentos, sessões de autógrafos, debates literários e atividades para crianças, a feira é um espaço para a promoção da leitura e o encontro de apaixonados por livros.",
-        "dt_start": "2025-07-10T00:00:00",
-        "dt_end": "2025-07-12T23:59:59",
-        "category": "Literatura",
-        "status": 3
-      },
-      {
-        "id": 16,
-        "name": "Conferência de Marketing Digital",
-        "description": "A Conferência de Marketing Digital é um evento que reúne profissionais de marketing, especialistas em tecnologia e empreendedores para discutir estratégias, tendências e inovações no mundo digital. Com palestras inspiradoras, estudos de caso e workshops práticos, a conferência é uma oportunidade para aprender e se atualizar nas últimas práticas de marketing.",
-        "dt_start": "2025-08-20T00:00:00",
-        "dt_end": "2025-08-22T23:59:59",
-        "category": "Negócios",
-        "status": 0
-      },
-      {
-        "id": 17,
-        "name": "Festival de Dança",
-        "description": "O Festival de Dança é um evento que celebra a diversidade e a expressão artística por meio da dança, reunindo companhias, bailarinos e coreógrafos em performances emocionantes e inspiradoras. Com apresentações de diferentes estilos e workshops para todos os níveis, o festival é uma celebração da arte do movimento.",
-        "dt_start": "2025-09-15T00:00:00",
-        "dt_end": "2025-09-17T23:59:59",
-        "category": "Arte",
-        "status": 1
-      },
-      {
-        "id": 18,
-        "name": "Exposição de Tecnologia",
-        "description": "A Exposição de Tecnologia é um evento que apresenta as últimas inovações e tendências em tecnologia, reunindo empresas, startups e especialistas para demonstrar e discutir os avanços mais recentes. Com demonstrações práticas, palestras e oportunidades de networking, a exposição é uma vitrine para o futuro da tecnologia.",
-        "dt_start": "2025-10-10T00:00:00",
-        "dt_end": "2025-10-12T23:59:59",
-        "category": "Tecnologia",
-        "status": 2
-      },
-      {
-        "id": 19,
-        "name": "Competição de Fotografia",
-        "description": "A Competição de Fotografia é um evento que desafia fotógrafos amadores e profissionais a capturar imagens criativas e inspiradoras. Com categorias variadas e prêmios emocionantes, a competição é uma oportunidade para mostrar talento, explorar novas técnicas e compartilhar histórias por meio das lentes da câmera.",
-        "dt_start": "2025-11-05T00:00:00",
-        "dt_end": "2025-11-07T23:59:59",
-        "category": "Arte",
-        "status": 0
-      },
-      {
-        "id": 20,
-        "name": "Conferência de Inovação Empresarial",
-        "description": "A Conferência de Inovação Empresarial é um evento que reúne líderes, empresários e especialistas para explorar as tendências e estratégias de inovação no mundo dos negócios. Com palestras inspiradoras, estudos de caso e sessões práticas, a conferência é uma oportunidade para impulsionar a criatividade e promover o crescimento empresarial.",
-        "dt_start": "2025-12-10T00:00:00",
-        "dt_end": "2025-12-12T23:59:59",
-        "category": "Negócios",
+        "name": "Oktoberfest",
+        "description": "A Oktoberfest é a maior festa de cerveja do mundo, realizada anualmente em Munique, na Alemanha, e em muitas outras cidades ao redor do mundo. Com barracas de cerveja, comida típica alemã, música tradicional e trajes folclóricos, a festa atrai milhões de visitantes todos os anos.",
+        "dt_start": "2025-09-20T00:00:00",
+        "dt_end": "2025-10-06T23:59:59",
+        "category": "Festival",
         "status": 3
       }
     ]

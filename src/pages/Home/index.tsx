@@ -5,6 +5,8 @@ import { Header } from "../../components/Header"
 
 import { useParty } from "../../hook/useParty"
 
+import { format } from 'date-fns';
+
 import { Party } from '../../types/party'
 import { useEffect, useState } from 'react';
 
@@ -27,15 +29,16 @@ const columns = [
     {
         name: 'Nome',
         selector: (row: Party) => row.name,
-        width: '30%'
     },
     {
         name: 'Data de Início',
-        selector: (row: Party) => row.dt_start
+        selector: (row: Party) => row.dt_start,
+        format: (row: Party) => format(row.dt_start, 'dd-MM-yyyy')
     },
     {
         name: 'Data de Término',
-        selector: (row: Party) => row.dt_end
+        selector: (row: Party) => row.dt_end,
+        format: (row: Party) => format(row.dt_start, 'dd-MM-yyyy')
     },
     {
         name: 'Categoria',
