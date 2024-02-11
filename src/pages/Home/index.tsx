@@ -9,6 +9,9 @@ import { format } from 'date-fns';
 
 import { Party } from '../../types/party'
 import { useEffect, useState } from 'react';
+import { IoIosPaper } from "react-icons/io";
+import { FaExternalLinkAlt, FaSearch } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const partyStatus = [
     'Criado',
@@ -52,7 +55,8 @@ const columns = [
     },
     {
         name: 'Ações',
-    },
+        cell: (row: Party) => <td title='Ir para a página do evento'><Link to={`evento/${row.id}`}><FaExternalLinkAlt color='#DD9700' size={16}/></Link></td>
+    }
 ]
 
 export const Home = () => {
@@ -80,15 +84,20 @@ export const Home = () => {
                 <C.HomeContainer>
                     <C.HomeHeader>
                         <div>
+                            <IoIosPaper size={24} color='#DD9700' />
                             <h1>Todos os eventos</h1>
                         </div>
-                        <input type="text" value={searchInput} onChange={(e) => handleSearchInput(e.target.value)} />
+                        <C.WrapperInput>
+                            <input placeholder='Encontre um evento' type="text" value={searchInput} onChange={(e) => handleSearchInput(e.target.value)} />
+                            <FaSearch color="#966502" style={{ position: 'absolute', right: '5%', top: '24%'}}/>
+                        </C.WrapperInput>
                     </C.HomeHeader>
 
                     <DataTable
                         columns={columns}
                         data={filteredParties}
                         pagination
+                        noDataComponent="Parece que não encontramos o que você está buscando. Que tal tentar algo novo?"
                     />
                 </C.HomeContainer>
             </C.HomeSection>

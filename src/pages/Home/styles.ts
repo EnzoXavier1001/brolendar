@@ -7,6 +7,12 @@ export const HomeContainer = styled.div`
     margin: 0 auto;
 
     margin-top: 6.0rem;
+    
+    @media (max-width: 768px) {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 6.0rem;
+    }
 `
 
 const colors = [
@@ -26,7 +32,31 @@ export const StatusStyles = styled.td<{$status: number;}>`
 
 export const HomeHeader = styled.header`
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1.4rem;
+
+    div:first-child {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+    }
+
+    @media (max-width: 550px) {
+        gap: 1.5rem;
+        justify-content: center;
+    }
+`
+
+export const WrapperInput = styled.div`
+    position: relative;
+
+    input {
+        outline: none;
+        padding: 0.8rem 1.4rem;
+        border: none;
+        border: 1px solid #DD9700;
+        border-radius: 8px;
+    }
 `
