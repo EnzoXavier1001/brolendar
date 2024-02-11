@@ -19,6 +19,14 @@ const colors = [
 export const StatusStyles = styled.td<{$status: number;}>`
     background: ${props => colors[props.$status] };
     color: #fff;
-    padding: 0.6rem 1.8rem;
+    padding: 0.6rem 1.2rem;
+    font-weight: 500;
     border-radius: 22px;
+`
+
+export const HomeHeader = styled.header`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.4rem;
 `

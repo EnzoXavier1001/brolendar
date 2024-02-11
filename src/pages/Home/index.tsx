@@ -6,6 +6,7 @@ import { Header } from "../../components/Header"
 import { useParty } from "../../hook/useParty"
 
 import { Party } from '../../types/party'
+import { useEffect, useState } from 'react';
 
 const partyStatus = [
     'Criado',
@@ -25,7 +26,8 @@ function getStatus(status: number) {
 const columns = [
     {
         name: 'Nome',
-        selector: (row: Party) => row.name
+        selector: (row: Party) => row.name,
+        width: '30%'
     },
     {
         name: 'Data de Início',
@@ -45,21 +47,44 @@ const columns = [
         format: (row: Party) => partyStatus[row.status],
         cell: (row: Party) => getStatus(row.status)
     },
+    {
+        name: 'Ações',
+    },
 ]
 
 export const Home = () => {
-   const { allParties } = useParty()
+    const [searchInput, setSearchInput] = useState<string>('')
+    const { allParties } = useParty()
+    const [filteredParties, setFilteredParties] = useState<Party[]>([]);
+
+    useEffect(() => {
+        if (searchInput !== '') {
+            const partiesFiltered = allParties.filter(parties => parties.name.includes(searchInput))
+            setFilteredParties(partiesFiltered);
+        } else {
+            setFilteredParties(allParties); 
+        }
+    }, [searchInput, allParties]);
+
+    function handleSearchInput(value: string) {
+        setSearchInput(value);
+    }
 
     return (
         <>
             <Header />
             <C.HomeSection>
                 <C.HomeContainer>
-                    <h1>Todos os eventos</h1>
+                    <C.HomeHeader>
+                        <div>
+                            <h1>Todos os eventos</h1>
+                        </div>
+                        <input type="text" value={searchInput} onChange={(e) => handleSearchInput(e.target.value)} />
+                    </C.HomeHeader>
 
                     <DataTable
                         columns={columns}
-                        data={allParties}
+                        data={filteredParties}
                         pagination
                     />
                 </C.HomeContainer>
