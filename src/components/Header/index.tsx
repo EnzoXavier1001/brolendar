@@ -6,14 +6,16 @@ export const Header = () => {
     return (
         <C.Header>
             <C.HeaderContainer>
-                <img src={logo} alt="" />
+                <Link to="/home">
+                    <img src={logo} alt="Logo Brolendar" />
+                </Link>
                 <C.HeaderNav>
                     <C.NavLinks>
-                       <li><Link to="/">Meus eventos</Link></li> 
-                       <li><Link to="/">Meus eventos</Link></li>
+                       <li><Link to="/home">Todos os eventos</Link></li>
+                       <li><Link to="/meus-eventos">Meus eventos</Link></li> 
                     </C.NavLinks>
                     <C.UserInfo>
-                        <button>Criar evento</button>
+                        <Link to="/criar-evento">Criar evento</Link>
                     </C.UserInfo>
                 </C.HeaderNav>
             </C.HeaderContainer>
