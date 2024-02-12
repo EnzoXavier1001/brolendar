@@ -55,7 +55,7 @@ const columns = [
     },
     {
         name: 'Ações',
-        cell: (row: Party) => <td title='Ir para a página do evento'><Link to={`evento/${row.id}`}><FaExternalLinkAlt color='#DD9700' size={16}/></Link></td>
+        cell: (row: Party) => <td title='Ir para a página do evento'><Link to={`/evento/${row.id}`}><FaExternalLinkAlt color='#DD9700' size={16}/></Link></td>
     }
 ]
 
