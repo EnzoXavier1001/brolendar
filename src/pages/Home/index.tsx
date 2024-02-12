@@ -12,6 +12,10 @@ import { useEffect, useState } from 'react';
 import { IoIosPaper } from "react-icons/io";
 import { FaExternalLinkAlt, FaSearch } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import { MdSportsBasketball } from "react-icons/md";
+import { MdFestival } from "react-icons/md";
+
+import { FaHome } from "react-icons/fa";
 
 const partyStatus = [
     'Criado',
@@ -77,11 +81,50 @@ export const Home = () => {
         setSearchInput(value);
     }
 
+    function handleSelectCategory(category: string) {
+        if(category != 'all') {
+            const partiesFiltered = allParties.filter(parties => parties.category === category)
+            setFilteredParties(partiesFiltered)
+        } else {
+            setFilteredParties(allParties)
+        }
+    }
+
     return (
         <>
             <Header />
             <C.HomeSection>
                 <C.HomeContainer>
+                    <C.CategoryGroup>
+                        <h2>Categorias</h2>
+                        <C.CategoryButtonWrapper>
+                            <C.CategoryCard onClick={() => handleSelectCategory('all')}>
+                                <C.CategoryCardDiv>
+                                    <FaHome size={32} />
+                                </C.CategoryCardDiv>
+                                <p>Todas</p>
+                            </C.CategoryCard>
+                            <C.CategoryCard onClick={() => handleSelectCategory('Esportes')}>
+                                <C.CategoryCardDiv>
+                                    <MdSportsBasketball size={32} />
+                                </C.CategoryCardDiv>
+                                <p>Esportes</p>
+                            </C.CategoryCard>
+                            <C.CategoryCard onClick={() => handleSelectCategory('Cultura')}>
+                                <C.CategoryCardDiv>
+                                    <FaHome size={32} />
+                                </C.CategoryCardDiv>
+                                <p>Cultura</p>
+                            </C.CategoryCard>
+                            <C.CategoryCard onClick={() => handleSelectCategory('Festival')}>
+                                <C.CategoryCardDiv>
+                                    <MdFestival size={32} />
+                                </C.CategoryCardDiv>
+                                <p>Festival</p>
+                            </C.CategoryCard>
+                        </C.CategoryButtonWrapper>
+                        
+                    </C.CategoryGroup>
                     <C.HomeHeader>
                         <div>
                             <IoIosPaper size={24} color='#DD9700' />

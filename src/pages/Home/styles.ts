@@ -60,3 +60,27 @@ export const WrapperInput = styled.div`
         border-radius: 8px;
     }
 `
+
+export const CategoryGroup = styled.div``
+
+export const CategoryButtonWrapper = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+    margin-top: 1.8rem;
+    margin-bottom: 4.0rem;
+`
+export const CategoryCard = styled.div`
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`
+
+export const CategoryCardDiv = styled.div`
+    background-color: #00282F;
+    color: #FFF;
+    padding: 1.8rem;
+    clip-path: circle();
+    cursor: pointer;
+`

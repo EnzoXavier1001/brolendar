@@ -89,38 +89,43 @@
       "id": "9eef",
       "email": "enzo_costa7@hotmail.com",
       "password": "1123123312"
+    },
+    {
+      "id": "b481",
+      "email": "enzojr_xavier@hotmail.com",
+      "password": "123213123312"
     }
   ],
-    "evento": [
-      {
-        "id": 1,
-        "name": "Festival de Verão",
-        "description": "O Festival de Verão é um evento anual que celebra a chegada da estação mais quente do ano, reunindo música ao vivo, comida deliciosa e atividades ao ar livre. Com apresentações de bandas locais, barracas de comida e bebida, e atividades recreativas, o festival oferece diversão para toda a família.",
-        "dt_start": "2024-07-20T00:00:00",
-        "dt_end": "2024-07-20T00:00:00",
-        "category": "Entretenimento",
-        "location": "São Paulo, SP, Brasil",
-        "status": 0
-      },
-      {
-        "id": 2,
-        "name": "Carnaval de Rua",
-        "description": "O Carnaval de Rua é uma das festas mais animadas do Brasil, com desfiles de escolas de samba, blocos de rua e muita música e dança. Milhares de pessoas se reúnem para celebrar essa tradição colorida e vibrante, criando uma atmosfera de alegria e descontração nas ruas das cidades.",
-        "dt_start": "2024-07-20T00:00:00",
-        "dt_end": "2024-07-20T00:00:00",
-        "category": "Cultura",
-        "location": "São Paulo, SP, Brasil",
-        "status": 2
-      },
-      {
-        "id": 3,
-        "name": "Oktoberfest",
-        "description": "A Oktoberfest é a maior festa de cerveja do mundo, realizada anualmente em Munique, na Alemanha, e em muitas outras cidades ao redor do mundo. Com barracas de cerveja, comida típica alemã, música tradicional e trajes folclóricos, a festa atrai milhões de visitantes todos os anos.",
-        "dt_start": "2024-07-20T00:00:00",
-        "dt_end": "2024-07-20T00:00:00",
-        "category": "Festival",
-        "location": "São Paulo, SP, Brasil",
-        "status": 3
-      }
-    ]
+  "evento": [
+    {
+      "id": "1",
+      "name": "Festival de Verão",
+      "description": "O Festival de Verão é um evento anual que celebra a chegada da estação mais quente do ano, reunindo música ao vivo, comida deliciosa e atividades ao ar livre. Com apresentações de bandas locais, barracas de comida e bebida, e atividades recreativas, o festival oferece diversão para toda a família.",
+      "dt_start": "2024-07-20T00:00:00",
+      "dt_end": "2024-07-20T00:00:00",
+      "category": "Entretenimento",
+      "location": "São Paulo, SP, Brasil",
+      "status": 0
+    },
+    {
+      "id": "2",
+      "name": "Carnaval de Rua",
+      "description": "O Carnaval de Rua é uma das festas mais animadas do Brasil, com desfiles de escolas de samba, blocos de rua e muita música e dança. Milhares de pessoas se reúnem para celebrar essa tradição colorida e vibrante, criando uma atmosfera de alegria e descontração nas ruas das cidades.",
+      "dt_start": "2024-07-20T00:00:00",
+      "dt_end": "2024-07-20T00:00:00",
+      "category": "Cultura",
+      "location": "São Paulo, SP, Brasil",
+      "status": 2
+    },
+    {
+      "id": "3",
+      "name": "Oktoberfest",
+      "description": "A Oktoberfest é a maior festa de cerveja do mundo, realizada anualmente em Munique, na Alemanha, e em muitas outras cidades ao redor do mundo. Com barracas de cerveja, comida típica alemã, música tradicional e trajes folclóricos, a festa atrai milhões de visitantes todos os anos.",
+      "dt_start": "2024-07-20T00:00:00",
+      "dt_end": "2024-07-20T00:00:00",
+      "category": "Festival",
+      "location": "São Paulo, SP, Brasil",
+      "status": 3
+    }
+  ]
 }
